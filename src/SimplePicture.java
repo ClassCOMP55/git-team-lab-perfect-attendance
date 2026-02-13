@@ -7,7 +7,7 @@ public class SimplePicture extends GraphicsProgram {
 	public static int XNUMBER = 200;
 	public static int YNUMBER = 100;
 
-	
+// ndsjfnakjndfkjasnj
 	public void init() {
 		setSize(SIZE, SIZE);
 	}
