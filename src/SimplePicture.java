@@ -4,13 +4,16 @@ import acm.program.GraphicsProgram;
 
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 700;
+	public static int XNUMBER = 200;
+	public static int YNUMBER = 100;
+
 	
 	public void init() {
 		setSize(SIZE, SIZE);
 	}
 	
 	public void run() {
-		GImage robot = new GImage("robot.png", 200, 100);
+		GImage robot = new GImage("robot.png", XNUMBER, YNUMBER);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github!", 200, 400);
 		add(label);
